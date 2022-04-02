@@ -12,6 +12,7 @@ body {
     color: #2B283A;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
+    border-radius: 10px;
     width: 30%;
  }
 
@@ -36,6 +37,8 @@ body {
 .info--image {
     display: block;
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .info--name {
@@ -91,6 +94,8 @@ body {
     justify-content: space-evenly;
     background-color: #D5D4D8;
     text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .footer img {
     height: 2em;
