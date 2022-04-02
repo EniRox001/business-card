@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23252C;
+}
+
+
+.main-container {
+    background-color: #F5F5F5;
+    color: #2B283A;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    width: 30%;
+ }
+
+@media (max-width: 500px) {
+    .main-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1060px) {
+    .main-container {
+        width: 100%;
+    }
+}
+ 
+.info {
+    text-align: center;
+}
+
+
+
+.info--image {
+    display: block;
+    width: 100%;
+}
+
+.info--name {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.info--career {
+    margin-top: .5em;
+    margin-bottom: 0;
+
+    color: #F47D27;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.info--email {
+    margin-top: 2em;
+
+    font-weight: 500;
+}
+
+.info--button {
+    height: 3.75em;
+    width: 23em;
+    border-radius: 7px;
+    margin-bottom: 2em;
+    border: 1px solid #c3c4c7;
+
+    background-color: white;
+    color: #374151;
+}
+
+.about, .interest {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    text-align: justify;
+}
+
+.about h3, .interest h3 {
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.interest {
+    padding-bottom: 1.75em;
+}
+
+.footer {
+    height: 5em;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D5D4D8;
+    text-align: center;
+}
+.footer img {
+    height: 2em;
+    margin-top: 1.5em;
+}
